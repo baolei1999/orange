@@ -1,35 +1,75 @@
-html{
+/* html{
     font-size:31.25vw;
-}
-.big{
-    font-size: 0.06rem;
-    height:100%;
+    height: 100%;
+} */
+/* .big{
+    width:100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
-header{
-    height:0.44rem;
-    width:100%;
-    background: #0cc440;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-nav{
-    height:0.35rem;
-    border-bottom: 0.005rem solid #d9d9d9;
+.big header{
+    width: 100%;
+    height:86px;
     background:pink;
-}
-main{
-    background:yellow;
-    width:100%;
-    flex:1;
+} */
+/* .big main{ */
+    /* width: 60px; */
+    /* flex: 1; */
+    /* background:skyblue;
     height:auto;
+} */
+/* .big main ul{
+    width:690px;
+    background:seashell;
+    margin :0 auto;
+    overflow:scroll;
 }
-footer{
-    height:0.44rem;
+.big main ul li{
+    height:566px;
     width:100%;
+    margin-bottom:30px;
+} */
+/* .big footer{
+    width: 100%;
+    background:bisque;
+    height: 98px;
+} */
+
+
+.big{
+    height:100%;
+    width: 100%;
+}
+.big header{
+    height:86px;
+    width: 100%;
+    font-size: 38px;
+    line-height: 86px;
+    color:#232323;
+    border-bottom:2px solid #f2f2f2;
+    margin-bottom:18px;
+}
+.big main{
+    height:1136px;
+    width: 100%;
+    /* background:hotpink; */
+    overflow: scroll;
+}
+.big main ul{
+    width:690px;
+    background:seashell;
+    margin :0 auto;
+    overflow:scroll;
+}
+.big main ul li{
+    margin-bottom: 20px;
+    height:566px;
+    width:100%;
+    background:chartreuse
+}
+.big footer{
+    height:92px;
     background:cyan;
-    border-top:0.005rem solid #d9d9d9;
+    width: 100%;
 }
