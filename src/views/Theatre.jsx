@@ -7,7 +7,7 @@ class theatre extends Component {
             <div className={thbao.big}>
                 <header>剧院</header>
                 <main></main>
-                <footer></footer>
+                <footer>0</footer>
             </div>
         );
     }
