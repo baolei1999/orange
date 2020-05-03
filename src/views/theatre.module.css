@@ -1,0 +1,35 @@
+html{
+    font-size:31.25vw;
+}
+.big{
+    font-size: 0.06rem;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    height:0.44rem;
+    width:100%;
+    background: #0cc440;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height:0.35rem;
+    border-bottom: 0.005rem solid #d9d9d9;
+    background:pink;
+}
+main{
+    background:yellow;
+    width:100%;
+    flex:1;
+    height:auto;
+}
+footer{
+    height:0.44rem;
+    width:100%;
+    background:cyan;
+    border-top:0.005rem solid #d9d9d9;
+}
