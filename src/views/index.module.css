@@ -1,5 +1,5 @@
 .linHeader{
-    background:red;
+    /* background:red; */
     width: 750px;
     height: 88px;
     display: flex;
@@ -18,5 +18,13 @@
     width: 690px;
     height: 280px;
     margin: 0 auto;
+}
+.list{
+    width: 690px;
+    height: 304px;
+    background:pink;
+    margin: 0 auto;
+}
+.listChildren{
 
 }
