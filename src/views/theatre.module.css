@@ -66,7 +66,41 @@
     margin-bottom: 20px;
     height:566px;
     width:100%;
-    background:chartreuse
+    background:chartreuse;
+    position: relative;
+}
+.big main ul li .top{
+    height:100px;
+    width: 620px;
+    background:cornflowerblue;
+    margin-bottom:20px;
+    position: absolute;
+    top:30px;
+    left:26px;
+}
+.big main ul li .top .one{
+    float: left;
+}
+.big main ul li .top span:nth-of-type(1){
+    position: absolute;
+    top:20px;
+    left: 114px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #232323;
+}
+.big main ul li .top span:nth-of-type(2){
+    font-size: 20px;
+    color: #666;
+    position: absolute;
+    top:60px;
+    left: 114px;
+}
+.big main ul li .top .two{
+    float: right;
+}
+.big main ul li .bottom{
+    
 }
 .big footer{
     height:92px;
