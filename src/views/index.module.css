@@ -8,17 +8,8 @@
 .headerLocation{
     padding: 50px;
 }
-.banner{
-    width: 100%;
-    height: 282px;
-    background: #000;
-}
-.bannerContent{
-    background: green;
-    width: 690px;
-    height: 280px;
-    margin: 0 auto;
-}
+
+
 .list{
     width: 690px;
     height: 304px;
@@ -69,4 +60,7 @@
     float: left;
     padding: 0 2px;
     
+}
+.silde{
+    float: left;
 }
