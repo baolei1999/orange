@@ -1,3 +1,13 @@
+
+.lin{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:#fcfcfc;
+}
+
+
 .linHeader{
     /* background:red; */
     width: 100%;
@@ -6,14 +16,30 @@
     justify-content: space-between;
 }
 .headerLocation{
-    padding: 50px;
+    padding: 25px 30px;
 }
-
-
+.hraderLocal{
+    display: block;
+    font-weight: 900;
+    float: left;
+    margin-top: 8px;
+    font-size: 28px;
+}
+.linInput{
+    width: 480px;
+    height: 60px;
+    background: #f5f5f5;
+    border: 0;
+    border: 1px solid #ebebeb;
+    border-radius: 0.4rem;
+    margin-top: 12px;
+}
+.banner{
+    margin-left: 30px;
+}
 .list{
     width: 690px;
     height: 304px;
-   
     margin:auto;
     padding-top:33px;
 }
@@ -25,7 +51,7 @@
 .listChildren{
     width: 138px;
     height: 130px;
-  
+    
     float: left;
 }
 .listImg{
@@ -34,24 +60,30 @@
 }
 .listWrod{
     display: block;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
 }
 .vipAhead{
     width: 690px;
     height: 298px;
-    margin: 0 auto;
+    margin: 5px auto;
     border: 1px solid rgba(213,163,112,0.5);
 }
 .advertion{
     margin-top: 50px;
+    width: 100%;
 }
 .hotAction{
    width: 100%;
    height: 530px;
+   margin-top: 50px;
 
 }
 .Recommend{
     width: 690px;
     margin-left:30px;
+  
 
 }
 .recommendList{
@@ -63,4 +95,24 @@
 }
 .silde{
     float: left;
+}
+.discount{
+    float: left;
+    color: #6b4128;
+    margin: 20px 20px;
+    font-size: 26px;
+    overflow: hidden;
+}
+.vipList{
+    float: left;
+}
+.hotBook{
+    float: left;
+    width: 201px;
+    margin: 10px 20px;
+}
+.linMain{
+    width: 100%;
+    overflow-y: scroll;
+    flex: 1;
 }
