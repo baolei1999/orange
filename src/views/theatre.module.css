@@ -40,6 +40,8 @@
 .big{
     height:100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .big header{
     height:86px;
@@ -51,10 +53,11 @@
     margin-bottom:18px;
 }
 .big main{
-    height:1136px;
+    /* height:1136px; */
     width: 100%;
     /* background:hotpink; */
-    overflow: scroll;
+    overflow-y: scroll;
+    flex: 1;
 }
 .big main ul{
     width:690px;
