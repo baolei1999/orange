@@ -100,7 +100,13 @@
     float: right;
 }
 .big main ul li .bottom{
-    
+    height:384px;
+    width:620px;
+    background:blanchedalmond;
+    position: absolute;
+    bottom: 30px;
+    left:26px;
+    overflow-x: scroll;
 }
 .big footer{
     height:92px;
