@@ -42,6 +42,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    background:#fcfcfc;
 }
 .big header{
     height:86px;
@@ -73,6 +74,7 @@
     border:1px solid #ccc;
     border-radius: 5px;
     box-shadow: 2px 2px 2px #ccc;
+    background:#fff;
 }
 .big main ul li .top{
     height:100px;
@@ -123,6 +125,12 @@
     display: inline-block;
     overflow: hidden;
 }
+    .big main ul li .bottom .boxx .small .more{
+        height:384px;
+        line-height: 384px;
+        text-align: center;
+        color: #666;
+    }
 .big main ul li .bottom .boxx .small .one{
     height:54px;
     line-height: 54px;
@@ -142,9 +150,4 @@
     width: 14px;
     background:#ccc;
     border-radius: 50px;
-}
-.big footer{
-    height:92px;
-    background:cyan;
-    width: 100%;
 }

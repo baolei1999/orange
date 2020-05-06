@@ -1,0 +1,15 @@
+.foo{
+    height:92px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.foo span{
+    position: relative;
+}
+.foo span img{
+    position: absolute;
+    bottom:30px;
+    left: -5px;
+}

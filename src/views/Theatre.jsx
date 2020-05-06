@@ -3,7 +3,8 @@ import store from "../store/index"
 import thbao from "./theatre.module.css"
 import "../assets/css/reset.css"
 import axios from "axios"
-import lunbo1 from "../components/lunbo1"
+import Footer from "../components/Footer"
+import {NavLink} from "react-router-dom"
 
 class theatre extends Component {
     constructor(props){
@@ -49,6 +50,11 @@ class theatre extends Component {
                                                     </div>
                                                 ))
                                             }
+                                            
+                                            <div className={thbao.small}>
+                                                <div className={thbao.more}><NavLink to="/search
+                                                ">查看更多>></NavLink></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -56,7 +62,7 @@ class theatre extends Component {
                         }
                     </ul>
                 </main>
-                <footer></footer>
+                <Footer></Footer>
             </div>
         );
     }
