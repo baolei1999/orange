@@ -57,7 +57,7 @@
 .big main{
     /* height:1136px; */
     width: 100%;
-    /* background:hotpink; */
+    background:#fbfbfb;
     overflow-y: scroll;
     flex: 1;
 }
@@ -75,6 +75,7 @@
     border-radius: 5px;
     box-shadow: 2px 2px 2px #ccc;
     background:#fff;
+    background:#fefefe;
 }
 .big main ul li .top{
     height:100px;
@@ -108,7 +109,6 @@
 .big main ul li .bottom{
     height:384px;
     width:620px;
-    background:blanchedalmond;
     position: absolute;
     bottom: 30px;
     left:26px;

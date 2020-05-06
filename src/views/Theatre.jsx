@@ -52,8 +52,7 @@ class theatre extends Component {
                                             }
                                             
                                             <div className={thbao.small}>
-                                                <div className={thbao.more}><NavLink to="/search
-                                                ">查看更多>></NavLink></div>
+                                                <div className={thbao.more}><NavLink to={{pathname:"/search",state:{vid:v.vid}}}>查看更多>></NavLink></div>
                                             </div>
                                         </div>
                                     </div>
