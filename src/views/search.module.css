@@ -50,6 +50,17 @@ header .btn{
 }
 main{
     flex: 1;
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+main .small{
+    width: 339px;
+    height:774px;
+    background:orchid;
+    margin:15px;
+    border-radius: 10px;
 }
 /* header .search{
     width:602px;
