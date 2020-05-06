@@ -21,9 +21,22 @@ export default class Search extends Component {
                 </header>
                 <main>{
                     this.state.list.map(v=>(
-                        <div key={v.schedular_id} className={sebao.small}></div>
+                        <div key={v.schedular_id} className={sebao.small}>
+                            <img width="339" height="463" src={v.pic} alt=""/>
+                            <span className={sebao.city}>{v.city_name}</span>
+                            <div className={sebao.bottom}>
+                                <div className={sebao.one}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{v.name}
+                                </div>
+                                <img width="67" height="34" src={require("../assets/img/zhuban.png")} alt=""/>
+                                <span>{v.start_show_time}</span>
+                                <div><span className={sebao.price}>￥{v.min_price}</span>起</div>
+                                <a href="#">电子票</a>
+                                <a href="#">可选座</a>
+                            </div>
+                        </div>
                     ))
                     }
+                    <span className={sebao.more}>没有更多了</span>
                 </main>
             </div>
         )
