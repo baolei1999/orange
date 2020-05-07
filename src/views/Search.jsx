@@ -12,14 +12,14 @@ export default class Search extends Component {
     render() {
         return (
             <div className={sebao.big}>
-                <header>
+                <header className={sebao.head}>
                     <div className={sebao.search}>
                         <img src={require("../assets/img/search.png")} alt=""/>
                         <input type="text" placeholder="搜索热门演出" />
                     </div>
                     <input type="button" className={sebao.btn} value="取消"/>
                 </header>
-                <main>{
+                <main className={sebao.mai}>{
                     this.state.list.map(v=>(
                         <div key={v.schedular_id} className={sebao.small}>
                             <img width="339" height="463" src={v.pic} alt=""/>
