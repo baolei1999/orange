@@ -12,9 +12,8 @@ export default class Search extends Component {
         if (e.keyCode === 13 && e.target.value != "") {
             const userName = e.target.value;
             localStorage.userName = userName;
-            alert("欢迎" + e.target.value + "来到聚成");
             e.target.value = "";
-            this.props.history.go(-1);
+            this.props.history.go(-2);
         } else {
 
         }
@@ -25,10 +24,10 @@ export default class Search extends Component {
 
     render() {
         return (
-            <div>
-                请登录
- 
-               <input onKeyUp={this.login.bind(this)} style={{ width: '500px', height: '100px' }} type="text" />
+            <div style={{width:'600px',height:'800px',background:" rgba(213,163,112,0.5)",margin:'100px auto',borderRadius:'0.4rem'}}>
+               <div style={{fontSize:'36px',textAlign:'center',paddingTop:'100px'}}>请登录</div>
+               <input onKeyUp={this.login.bind(this)} style={{ border:'none',border:'1px solid #6b4128',borderRadius:'0.4rem', width: '500px', height: '80px' ,margin:' 50px 45px',fontSize:'30px'}} type="text" />
+               <div><img style={{margin:'80px 135px'}} src={require('../assets/img/login_logo.4a43235.png')} alt=""/></div>
             </div>
         )
     }
