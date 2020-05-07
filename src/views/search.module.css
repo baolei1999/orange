@@ -5,14 +5,14 @@
     flex-direction: column;
     background:#f5f5f5;
 }
-header{
+.head{
     height:88px;
     width: 100%;
     box-sizing: border-box;
     padding:0 30px;
     background:#fff;
 }
-header .search{
+.head .search{
     float: left;
     height: 60px;
     line-height: 60px;
@@ -24,22 +24,22 @@ header .search{
     border:2px solid #ebebeb;
     margin-top:14px;
 }
-header .search input{
+.head .search input{
     height:40px;
     width:470px;
     border:none;
     outline: none;
     background:#f5f5f5;
 }
-header .search img{
+.head .search img{
     margin-top:10px;
     float: left;
 }
-header .search input::-webkit-input-placeholder{
+.head .search input::-webkit-input-placeholder{
     color: #232323;
     font-size: 32px;
 }
-header .btn{
+.head .btn{
     border:none;
     outline: none;
     background: #fff;
@@ -48,21 +48,21 @@ header .btn{
     margin-top:22px;
     color: #666;
 }
-main{
+.mai{
     flex: 1;
     width: 100%;
     overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
 }
-main .small{
+.mai .small{
     width: 339px;
     height:774px;
     margin:15px;
     border-radius: 10px;
     position: relative;
 }
-main .small .city{
+.mai .small .city{
     position: absolute;
     right:10px;
     top:10px;
@@ -76,13 +76,13 @@ main .small .city{
     line-height: 36px;
     font-size: 24px;
 }
-main .small .bottom{
+.mai .small .bottom{
     width:294px;
     height:256px;
     /* background:salmon; */
     padding:16px 22px 22px;
 }
-main .small .bottom .one{
+.mai .small .bottom .one{
     overflow: hidden;
     line-height:38px;
     text-overflow: ellipsis;
@@ -96,33 +96,33 @@ main .small .bottom .one{
     font-size: 24px;
     position: relative;
 }
-main .small .bottom img{
+.mai .small .bottom img{
     position: absolute;
     bottom:256px;
     left: 12px;
 }
-main .small .bottom span{
+.mai .small .bottom span{
     color: #666;
     display: inline-block;
     height:60px;
     line-height: 60px;
 }
-main .small .bottom div{
+.mai .small .bottom div{
     color: #999;
     font-size: 24px;
 }
-main .small .bottom div .price{
+.mai .small .bottom div .price{
     font-size: 32px;
     color: #FF6743;
     margin-right: 6px;
 }
-main .small .bottom a{
+.mai .small .bottom a{
     display: inline-block;
     font-size: 24px;
     color: #ff6743;
     margin:20px 10px 0 0;
 }
-main .more{
+.mai .more{
     margin:0 300px;
     color: #dded;
     font-size: 24px;
